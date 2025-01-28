@@ -1,0 +1,43 @@
+@font-face {
+  font-family: NoirPro;
+  src: url("font/NOIRPRO-REGULAR.OTF");
+}
+
+body {
+  font-family: NoirPro;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.insert {
+  color: #ffffef;
+  font-size: 40px;
+  background: #e66442;
+  position: absolute;
+  transform: matrix(1, -0.03, 0.03, 1, 0, 0);
+  padding: 10px 15px 10px 15px;
+  margin-top: 150px;
+}
+
+.question {
+  color: black;
+  font-size: 40px;
+  padding: 0px 50px 0px 50px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#timer {
+  color: black;
+  font-size: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+}
